@@ -70,10 +70,13 @@ jQuery(document).ready(function () {
       mq == "desktop"
     ) {
       nextSides(projectsSlider);
-    } else {
-      console.log(`${this}`);
-      singleProjectContent.addClass("is-visible");
     }
+  });
+  // open single project content
+  $(".cd-slider a").click(function () {
+    let id = $(this).attr("id");
+    openProjectPage(id);
+    return false;
   });
 
   //close single project content
@@ -259,7 +262,9 @@ jQuery(document).ready(function () {
 
     updateNavigation();
   }
-
+  function openProjectPage(id) {
+    $("#" + id + "p").addClass("is-visible");
+  }
   function updateNavigation() {
     //update visibility of next/prev buttons according to the visible slides
     var current = projectsContainer.find("li.current");
