@@ -775,6 +775,27 @@ Project content panel
   font-size: 1.4rem;
   color: #6f757c;
 }
+.cd-project-content ul {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+}
+.cd-project-content .content-image {
+  width: 80vw;
+
+  height: auto;
+
+  text-align: center;
+}
+
+.cd-project-content ul li {
+  display: inline-block;
+  padding: 5px;
+}
 .cd-project-content em,
 .cd-project-content p {
   line-height: 1.6;
