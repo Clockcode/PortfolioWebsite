@@ -658,6 +658,16 @@ Project slider navigation
 .cd-slider-navigation {
   display: none;
 }
+.tags {
+  display: flex;
+  flex-direction: row;
+}
+.tags > p {
+  flex: 1 0 auto;
+  color: #2d0180;
+  opacity: 0.5;
+  font-size: 0.8em;
+}
 .cd-slider-navigation a {
   position: absolute;
   top: 50%;
