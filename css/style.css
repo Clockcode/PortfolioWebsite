@@ -237,6 +237,7 @@ Projects Slider
   display: block;
   border-radius: 0.25em 0.25em 0 0;
   width: 100%;
+  background: white;
 }
 .cd-slider .project-info {
   padding: 1em 1.6em;
@@ -792,9 +793,26 @@ Project content panel
   text-align: center;
 }
 
-.cd-project-content ul li {
+.cd-project-content .techs li {
   display: inline-block;
   padding: 5px;
+}
+.cd-project-content .links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 2em auto 2em auto;
+}
+.cd-project-content .links li {
+  flex: 1 0 auto;
+  margin-right: 0.5em;
+  /* background-color: #eebb00; */
+}
+.cd-project-content .links li a {
+  background-color: #eebb00;
+  color: #fff;
+  padding: 0.8em;
+  border-radius: 50px;
 }
 .cd-project-content em,
 .cd-project-content p {
