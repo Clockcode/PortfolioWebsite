@@ -1,10 +1,10 @@
-Squeezebox Portfolio Template
+Personal Portfolio Website
 =========
-
-An intro block that slides out to uncover a gallery of portfolio items.
-
-[Article on CodyHouse](http://codyhouse.co/gem/squeezebox-portfolio-template/)
-
-[Demo](http://codyhouse.co/demo/squeezebox-portfolio-template/index.html)
- 
-[Terms](http://codyhouse.co/terms/)
+- quote machine
+    [] Add tags, http client axios, etc..
+    [] Add photo
+    [] Put urls for demo and live
+- Markdown Editor
+    [] Fix the download functionality
+    [] Add photo
+    [] Put urls for demo and live

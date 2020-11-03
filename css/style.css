@@ -236,7 +236,9 @@ Projects Slider
 .cd-slider img {
   display: block;
   border-radius: 0.25em 0.25em 0 0;
-  width: 100%;
+  width: 20em;
+  height: 15em;
+  object-fit: cover;
   background: white;
 }
 .cd-slider .project-info {
@@ -661,6 +663,7 @@ Project slider navigation
 .tags {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 .tags > p {
   flex: 1 0 auto;
