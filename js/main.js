@@ -47,6 +47,11 @@ jQuery(document).ready(function () {
       "_blank"
     );
   });
+  //show the blog zebsite if user clicks the show-blog button
+  intro.on("click", 'a[data-action="show-blog"]', function (event) {
+    event.preventDefault();
+    window.open("https://cagdas-personal-blog.netlify.app/", "_blank");
+  });
 
   intro.on("click", function (event) {
     //projects slider is visible - hide slider and show the intro panel
