@@ -57,9 +57,9 @@ Patterns - reusable parts of our design
   -moz-transition: box-shadow 0.2s;
   transition: box-shadow 0.2s;
 }
-.no-touch .cd-btn:hover {
-  box-shadow: 0 1px 30px rgba(238, 187, 0, 0.4),
-    inset 0 1px 0 rgba(255, 255, 255, 0.4);
+.cd-btn:hover {
+  box-shadow: 0 1px 30px rgba(43, 163, 13, 0.8);
+  background-color: rgba(43, 163, 13, 0.6);
 }
 
 .cd-img-replace {
@@ -118,10 +118,41 @@ Intro page
   vertical-align: middle;
   text-align: center;
 }
+.content-wrapper .image-container {
+  position: relative;
+}
+.image-container img {
+  position: absolute;
+  left: 1em;
+}
+.cd-intro-block .profile-links {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2em;
+}
+.profile-links a {
+  margin: 1em;
+  font-size: 2em;
+}
+.profile-links i {
+  font-weight: 100;
+}
+.profile-links a:hover {
+  box-shadow: 0 1px 30px rgba(43, 163, 13, 0.8);
+  /* background-color: rgba(43, 163, 13, 0.6); */
+}
 .cd-intro-block h1 {
   width: 90%;
-  margin: 0 auto 0.6em;
+  margin: 0 auto 0.2em;
   font-size: 2.4rem;
+  color: #ebebeb;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.cd-intro-block h2 {
+  width: 75%;
+  margin: 0 auto 1em;
+  font-size: 2rem;
   color: #ebebeb;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -232,6 +263,9 @@ Projects Slider
   display: block;
   height: 100%;
   width: 100%;
+}
+.cd-slider a:hover {
+  box-shadow: 0 1px 30px rgba(43, 163, 13, 0.8);
 }
 .cd-slider img {
   display: block;
