@@ -43,7 +43,7 @@ jQuery(document).ready(function () {
   intro.on("click", 'a[data-action="show-resume"]', function (event) {
     event.preventDefault();
     window.open(
-      "https://drive.google.com/file/d/1E1a78GEQb89VhHAUQG8zlR5-HUCTol9p/view?usp=sharing",
+      "https://drive.google.com/file/d/1haTe1PI3Ik6FL1tuP784ihYKa2waMVYc/view?usp=sharing",
       "_blank"
     );
   });

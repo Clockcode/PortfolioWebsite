@@ -21,7 +21,7 @@ body {
 }
 
 a {
-  color: #eebb00;
+  color: #ebebeb;
   text-decoration: none;
 }
 
@@ -129,17 +129,19 @@ Intro page
 .cd-intro-block .profile-links {
   display: flex;
   justify-content: center;
-  /* margin-bottom: 2em; */
+  width: 50%;
+  margin: 0 auto;
 }
 .profile-links a {
-  margin: 1em;
+  margin-left: 1em;
+  margin-top: 1em;
   font-size: 1.6em;
 }
 .profile-links i {
   font-weight: 100;
 }
 .profile-links a:hover {
-  box-shadow: 0 1px 30px rgba(43, 163, 13, 0.8);
+  /* box-shadow: 0 1px 30px rgba(43, 163, 13, 0.8); */
   /* background-color: rgba(43, 163, 13, 0.6); */
 }
 .cd-intro-block h1 {
@@ -276,9 +278,9 @@ Projects Slider
   height: 100%;
   width: 100%;
 }
-.cd-slider a:hover {
+/* .cd-slider a:hover {
   box-shadow: 0 1px 30px rgba(43, 163, 13, 0.8);
-}
+} */
 .cd-slider img {
   display: block;
   border-radius: 0.25em 0.25em 0 0;
